@@ -7,6 +7,17 @@ SITENAME = 'tutoriel-pelican'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = [
+    'images',
+    'extra/robots.txt',
+    'extra/CNAME',
+    'extra/favicon.png',
+]
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/favicon.png': {'path': 'favicon.png'}
+}
 
 TIMEZONE = 'Europe/Paris'
 
@@ -18,6 +29,24 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+# URL Settings
+
+ARTICLE_URL = 'articles/{slug}/'
+ARTICLE_SAVE_AS = 'articles/{slug}/index.html'
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
+CATEGORY_URL = 'categorie/{slug}/'
+CATEGORY_SAVE_AS = 'categorie/{slug}/index.html'
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+CATEGORIES_SAVE_AS = 'categories.html'
+TAGS_SAVE_AS = 'tags.html'
+INDEX_SAVE_AS = 'index.html'
+
+AUTHOR_URL = 'author/{slug}/'
+AUTHOR_SAVE_AS = ''
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
