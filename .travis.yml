@@ -1,0 +1,24 @@
+language: python
+python:
+  - "3.6" # la version de Python que vous utilisez
+
+branches:
+  only:
+    - master
+
+install:
+  - pip3 install -r requirements.txt
+  - pip3 install ghp-import
+
+script:
+  - make publish github
+
+deploy:
+  provider: pages
+  repo: JN-Blog/tutoriel-pelican
+  target_branch: gh-pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: output
+  on:
+    branch: master
