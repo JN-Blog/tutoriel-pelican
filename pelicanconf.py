@@ -24,12 +24,6 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'fr'
 
-# all defaults to True.
-# DISPLAY_HEADER = True
-# DISPLAY_FOOTER = True
-# DISPLAY_HOME   = True
-# DISPLAY_MENU   = True
-
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
