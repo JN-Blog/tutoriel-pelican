@@ -6,6 +6,7 @@ AUTHOR = 'Julien Nuellas'
 SITENAME = 'tutoriel-pelican'
 SITEURL = ''
 
+THEME = 'themes/dist'
 PATH = 'content'
 STATIC_PATHS = [
     'images',
@@ -22,6 +23,12 @@ EXTRA_PATH_METADATA = {
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'fr'
+
+# all defaults to True.
+# DISPLAY_HEADER = True
+# DISPLAY_FOOTER = True
+# DISPLAY_HOME   = True
+# DISPLAY_MENU   = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -47,6 +54,13 @@ INDEX_SAVE_AS = 'index.html'
 
 AUTHOR_URL = 'author/{slug}/'
 AUTHOR_SAVE_AS = ''
+
+# additional menu items
+MENUITEMS = (
+    ('JN-Blog', 'https://www.jn-blog.com/'),
+    ('Docs Pelican', 'http://docs.getpelican.com/en/stable/'),
+)
+
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
