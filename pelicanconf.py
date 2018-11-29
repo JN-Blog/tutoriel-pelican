@@ -12,23 +12,17 @@ STATIC_PATHS = [
     'images',
     'extra/robots.txt',
     'extra/CNAME',
-    'extra/favicon.png',
+    'extra/favicon.ico',
 ]
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/CNAME': {'path': 'CNAME'},
-    'extra/favicon.png': {'path': 'favicon.png'}
+    'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'fr'
-
-# all defaults to True.
-# DISPLAY_HEADER = True
-# DISPLAY_FOOTER = True
-# DISPLAY_HOME   = True
-# DISPLAY_MENU   = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
