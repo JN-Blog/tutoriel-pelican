@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>tutoriel-pelican - tutoriels</title><link href="https://tutoriel-pelican.jn-blog.com/" rel="alternate"></link><link href="https://tutoriel-pelican.jn-blog.com/feeds/tutoriels.atom.xml" rel="self"></link><id>https://tutoriel-pelican.jn-blog.com/</id><updated>2018-11-16T00:00:00+01:00</updated><entry><title>Premier article sur le blog tutoriel pelican</title><link href="https://tutoriel-pelican.jn-blog.com/articles/mon-premier-article/" rel="alternate"></link><published>2018-11-16T00:00:00+01:00</published><updated>2018-11-16T00:00:00+01:00</updated><author><name>Julien Nuellas</name></author><id>tag:tutoriel-pelican.jn-blog.com,2018-11-16:/articles/mon-premier-article/</id><summary type="html">&lt;p&gt;Premier article sur blog tutoriel pelican&lt;/p&gt;</summary><content type="html">&lt;p&gt;Bonjour tout le monde, ceci est mon premier article.&lt;/p&gt;
+&lt;h2&gt;Ceci est la première partie de mon article&lt;/h2&gt;
+&lt;p&gt;Pelican, c'est vraiment fun.&lt;/p&gt;
+&lt;h2&gt;Ceci est la deuxième partie de mon article&lt;/h2&gt;
+&lt;p&gt;Et markdown, c'est tellement simple à utiliser!
+La syntaxe est simple à prendre en main et on peut faire tout ce qu'on veut. Voici une &lt;a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"&gt;cheat sheet&lt;/a&gt; qui vous permettra d'en savoir un peu plus.&lt;/p&gt;</content><category term="tutoriel"></category><category term="pelican"></category><category term="blog statique"></category></entry></feed>
