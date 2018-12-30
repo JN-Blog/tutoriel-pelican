@@ -51,7 +51,7 @@ AUTHOR_SAVE_AS = ''
 
 # additional menu items
 MENUITEMS = (
-    ('JN-Blog', 'https://www.jn-blog.com/'),
+    ('ProductMakers', 'https://www.productmakers.fr/'),
     ('Docs Pelican', 'http://docs.getpelican.com/en/stable/'),
 )
 
